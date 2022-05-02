@@ -1,0 +1,25 @@
+.main-footer {
+  color: white;
+  background-color: #dc3545;
+  padding-top: 3rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.page-conainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.reserved-to {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .main-footer {
+    background-color: rgb(240, 97, 14);
+    font-size: small;
+    text-align: center;
+  }
+}
